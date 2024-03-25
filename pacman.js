@@ -2,9 +2,9 @@ class PacMan {
     constructor(elementId, startPos, startDirection) {
         this.element = document.getElementById(elementId);
         this.pos = startPos;
-        this.direction = startDirection; // 0 for right, 1 for left
-        this.focus = 0; // Toggle mouth open/close
-        this.speed = 20; // Adjust speed if necessary
+        this.direction = startDirection; 
+        this.focus = 0; 
+        this.speed = 20; 
     }
 
     move() {
