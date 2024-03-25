@@ -1,25 +1,25 @@
 .pacman {
     position: absolute;
-    width: 200px; /* Ensures all PacMan images are the same width */
-    z-index: 100; /* Keep them above other page elements */
+    width: 200px; 
+    z-index: 100;
   }
   
   #PacMan1 {
-    top: 5vh; /* Position PacMan1 a quarter way down the viewport */
+    top: 5vh;
   }
   
   #PacMan2 {
-    top: 30vh; /* Position PacMan2 halfway down the viewport */
-    right: 0; /* Start from the right edge */
+    top: 30vh; 
+    right: 0; 
   }
   
   #PacMan3 {
-    top: 55vh; /* Position PacMan3 three-quarters way down the viewport */
+    top: 55vh;
   }
   
   #PacMan4 {
-    top: 80vh; /* Position PacMan4 near the bottom of the viewport */
-    right: 0; /* Start from the right edge */
+    top: 80vh;
+    right: 0; 
   }
   body {
     display: -ms-flexbox;
